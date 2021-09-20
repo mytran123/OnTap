@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  //Tìm số đầu tiên trong dãy fibo chia hết cho 5
+  let a = 1;
+  let b = 1;
+  let check = true;
+  let c = a + b;
+  while (check) {
+      c = a + b;
+      a = b;
+      b = c;
+      if(c % 5 === 0) {
+          document.write(c + " là số đầu tiên trong dãy chia hết cho 5");
+          check = false;
+      }
+  }
+
+</script>
+</body>
+</html>

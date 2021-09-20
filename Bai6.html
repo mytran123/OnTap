@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Tính tổng các số chia hết cho 3 và 5 từ 3 đến 22
+    let sum = 0;
+    for (let i = 3; i <= 22; i++) {
+        if(i % 3 == 0 && i % 5 == 0) {
+            document.write(i + '<br>');
+            sum = sum + i;
+        }
+    }
+    document.write('Tổng là: '+ sum);
+</script>
+</body>
+</html>
